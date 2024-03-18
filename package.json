@@ -2,8 +2,9 @@
   "name": "statement-parser",
   "version": "1.0.0",
   "description": "PDF Bank Statements -> CSV for Budgeting",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +17,7 @@
   },
   "dependencies": {
     "papaparse": "^5.4.1",
-    "pdf-parse": "^1.1.1"
+    "pdf-parse": "^1.1.1",
+    "tesseract.js": "^5.0.5"
   }
 }
