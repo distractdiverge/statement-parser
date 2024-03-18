@@ -1,3 +1,7 @@
+# Project Ignores
+dist/
+data/
+
 # Logs
 logs
 *.log

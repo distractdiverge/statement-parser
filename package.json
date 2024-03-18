@@ -10,6 +10,12 @@
   "author": "alex.lapinski@gmail.com",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^20.11.28",
+    "@types/pdf-parse": "^1.1.4",
     "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "papaparse": "^5.4.1",
+    "pdf-parse": "^1.1.1"
   }
 }
