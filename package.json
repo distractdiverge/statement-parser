@@ -1,0 +1,15 @@
+{
+  "name": "statement-parser",
+  "version": "1.0.0",
+  "description": "PDF Bank Statements -> CSV for Budgeting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "alex.lapinski@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
+}
