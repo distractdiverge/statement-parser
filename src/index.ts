@@ -2,11 +2,10 @@ import * as fs from 'fs';
 import * as path from 'path';
 import pdf from 'pdf-parse';
 //import * as Tesseract from 'tesseract.js';
+import pdftools from './pdftools.js';
 
 
 async function convertPDFToImages(filepath: string): Promise<string[]> {
-    let imagePaths: string[] = [];
-    
     const options: any = {
         outputType: 'jpg',
     };
@@ -14,9 +13,10 @@ async function convertPDFToImages(filepath: string): Promise<string[]> {
     console.info(`converting file ${filepath}`);
 
     // TODO
-    
-    imagePaths = imagePaths.concat([]);
-    
+    const imagePaths = pdftools.pagesToImages(filepath)
+
+    // TODO
+
     return imagePaths;
 }
 

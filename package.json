@@ -4,6 +4,7 @@
   "description": "PDF Bank Statements -> CSV for Budgeting",
   "main": "./dist/index.js",
   "scripts": {
+    "start": "node ./dist/index.js",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,11 +14,13 @@
   "devDependencies": {
     "@types/node": "^20.11.28",
     "@types/pdf-parse": "^1.1.4",
+    "@types/pdfjs-dist": "^2.10.378",
     "typescript": "^5.4.2"
   },
   "dependencies": {
     "papaparse": "^5.4.1",
     "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^4.0.379",
     "tesseract.js": "^5.0.5"
   }
 }
